@@ -1,2 +1,2 @@
 # toolbox
-Geometry library, OpnGL engine and various utilities
+Geometry library, OpenGL engine and various utilities.
