@@ -594,13 +594,11 @@ Makefile: ..\..\toolbox.pro D:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc\qmake.co
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\qt_config.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\spec_post.prf \
-		.qmake.stash \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exclusive_builds.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\common\msvc-version.conf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\toolchain.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\default_pre.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\win32\default_pre.prf \
-		..\..\projects.pri \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\resolve_config.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exclusive_builds_post.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\default_post.prf \
@@ -766,13 +764,11 @@ D:\Qt\5.15.2\msvc2019_64\mkspecs\features\qt_functions.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\qt_config.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\spec_post.prf:
-.qmake.stash:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exclusive_builds.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\common\msvc-version.conf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\toolchain.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\default_pre.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\win32\default_pre.prf:
-..\..\projects.pri:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\resolve_config.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exclusive_builds_post.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\default_post.prf:

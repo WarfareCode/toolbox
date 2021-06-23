@@ -480,6 +480,61 @@ compiler_moc_header_clean:
 		..\..\..\..\projects\base\utility\string_utility.hpp \
 		..\..\..\..\projects\base\utility\tuple_array.hpp \
 		..\..\..\..\temp\ui\release\qt-utility\ui_grabber_parameters.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QVariant \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QApplication \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qapplication.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qcoreapplication.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qeventloop.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qguiapplication.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qinputmethod.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QCheckBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qcheckbox.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qicon.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QComboBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qcombobox.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractitemdelegate.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qstyleoption.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractspinbox.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qvalidator.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qregularexpression.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qslider.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qstyle.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtabbar.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtabwidget.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qrubberband.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qframe.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qabstractitemmodel.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QDoubleSpinBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qspinbox.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QFrame \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QGridLayout \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlayout.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QHBoxLayout \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QLabel \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlabel.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QLineEdit \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlineedit.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextcursor.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextformat.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qpen.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextoption.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QPushButton \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QRadioButton \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qradiobutton.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QSpacerItem \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QSpinBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QTabWidget \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QTextEdit \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtextedit.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextdocument.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QVBoxLayout \
 		..\..\..\..\temp\moc\release\qt-utility\moc_predefs.h \
 		D:\Qt\5.15.2\msvc2019_64\bin\moc.exe
 	D:\Qt\5.15.2\msvc2019_64\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/dev/toolbox/cpp/temp/moc/release/qt-utility/moc_predefs.h -ID:/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc -ID:/dev/toolbox/cpp/projects/qt-utility -ID:/dev/toolbox/cpp/projects/qt-utility/widgets -ID:/dev/toolbox/cpp/projects/base -ID:/dev/toolbox/cpp/projects/opengl-utility -ID:/dev/toolbox/cpp/thirdparty/signals -ID:/dev/toolbox/cpp/thirdparty/SFML/include -ID:/dev/toolbox/cpp/thirdparty/glew-2.1.0/include -ID:/dev/toolbox/cpp/thirdparty/glm/include -ID:/Qt/5.15.2/msvc2019_64/include -ID:/Qt/5.15.2/msvc2019_64/include/QtOpenGL -ID:/Qt/5.15.2/msvc2019_64/include/QtPrintSupport -ID:/Qt/5.15.2/msvc2019_64/include/QtWidgets -ID:/Qt/5.15.2/msvc2019_64/include/QtGui -ID:/Qt/5.15.2/msvc2019_64/include/QtANGLE -ID:/Qt/5.15.2/msvc2019_64/include/QtNetwork -ID:/Qt/5.15.2/msvc2019_64/include/QtCore -I. -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt" ..\..\..\..\projects\qt-utility\widgets\grabber_parameters_widget.hpp -o ..\..\..\..\temp\moc\release\qt-utility\moc_grabber_parameters_widget.cpp
@@ -1213,52 +1268,65 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_heade
 		..\..\..\..\projects\base\utility\string_utility.hpp \
 		..\..\..\..\projects\base\utility\tuple_array.hpp \
 		..\..\..\..\temp\ui\release\qt-utility\ui_grabber_parameters.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QFile \
-		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QFileInfo \
-		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qfileinfo.h \
-		..\..\..\..\projects\qt-utility\qt_ui.hpp \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QVBoxLayout \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qboxlayout.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlayout.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlayoutitem.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qgridlayout.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QDoubleSpinBox \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qspinbox.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractspinbox.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qvalidator.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qregularexpression.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QLineEdit \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlineedit.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qframe.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextcursor.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextformat.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qpen.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextoption.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QRadioButton \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qradiobutton.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractbutton.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qicon.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QPushButton \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qpushbutton.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QLabel \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlabel.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QVariant \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QApplication \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qapplication.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qcoreapplication.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qeventloop.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qdesktopwidget.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qguiapplication.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qinputmethod.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QCheckBox \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qcheckbox.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QTextEdit \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtextedit.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextdocument.h \
-		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QSpinBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractbutton.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qicon.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QComboBox \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qcombobox.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractitemdelegate.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qstyleoption.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractspinbox.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qvalidator.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qregularexpression.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qslider.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qstyle.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtabbar.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtabwidget.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qrubberband.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qframe.h \
 		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qabstractitemmodel.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QDoubleSpinBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qspinbox.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QFrame \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QGridLayout \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlayout.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlayoutitem.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qboxlayout.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QHBoxLayout \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QLabel \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlabel.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QLineEdit \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qlineedit.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextcursor.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextformat.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qpen.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextoption.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QPushButton \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qpushbutton.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QRadioButton \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qradiobutton.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QSpacerItem \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QSpinBox \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QTabWidget \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QTextEdit \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qtextedit.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\qabstractscrollarea.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtGui\qtextdocument.h \
+		D:\Qt\5.15.2\msvc2019_64\include\QtWidgets\QVBoxLayout \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QFile \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QFileInfo \
+		D:\Qt\5.15.2\msvc2019_64\include\QtCore\qfileinfo.h \
+		..\..\..\..\projects\qt-utility\qt_ui.hpp \
 		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QDebug \
 		..\..\..\..\projects\qt-utility\qt_str.hpp \
 		D:\Qt\5.15.2\msvc2019_64\include\QtCore\QStringBuilder \
