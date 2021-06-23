@@ -16,7 +16,11 @@
 
 using QtNodes::NodeStyle;
 
-inline void initResources() { Q_INIT_RESOURCE(resources); }
+inline void initResources() {
+#ifndef NODES_APP
+    Q_INIT_RESOURCE(resources);
+#endif
+}
 
 NodeStyle::NodeStyle(){
     // Explicit resources inialization for preventing the static initialization

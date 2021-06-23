@@ -13,7 +13,11 @@
 
 using QtNodes::FlowViewStyle;
 
-inline void initResources() { Q_INIT_RESOURCE(resources); }
+inline void initResources() {
+#ifndef NODES_APP
+    Q_INIT_RESOURCE(resources);
+#endif
+}
 
 FlowViewStyle::FlowViewStyle(){
     // Explicit resources inialization for preventing the static initialization

@@ -1,6 +1,8 @@
 #pragma once
 
 
+// #define NODES_APP
+
 #define NODE_EDITOR_STATIC
 
 #include "Compiler.hpp"
