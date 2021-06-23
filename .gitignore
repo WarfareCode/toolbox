@@ -5,13 +5,30 @@ cpp/bin/**/*.exe
 cpp/bin/**/*.lib
 
 ## temp
-cpp/temp/**/*obj
-cpp/temp/**/*cpp
-cpp/temp/**/*h
-cpp/temp/**/*hpp
+cpp/temp/**/*.obj
+cpp/temp/**/*.cpp
+cpp/temp/**/*.h
+cpp/temp/**/*.hpp
 
 ## qmake
 cpp/qmake/**/.qmake.stash
 cpp/qmake/**/MakeFile
 cpp/qmake/**/MakeFile.Debug
 cpp/qmake/**/MakeFile.Release
+
+## thirdparty
+cpp/thirdparty/**/*.sh
+cpp/thirdparty/**/*.re
+cpp/thirdparty/**/*.txt
+cpp/thirdparty/**/*.dtd
+cpp/thirdparty/**/*.pl
+cpp/thirdparty/**/*.m4
+cpp/thirdparty/**/*.ilk
+cpp/thirdparty/**/*.inc
+cpp/thirdparty/**/*.db
+cpp/thirdparty/**/*.shm
+cpp/thirdparty/**/*.erb
+cpp/thirdparty/**/*.wal
+cpp/thirdparty/**/*.bat
+cpp/thirdparty/**/*.patch
+cpp/thirdparty/**/.editorconfig
