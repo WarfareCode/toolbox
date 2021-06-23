@@ -5,6 +5,9 @@ cpp/*.pro.user*
 ## bin
 cpp/bin/**/*.exe
 cpp/bin/**/*.lib
+cpp/bin/**/*.ilk
+cpp/bin/**/*.pdb
+cpp/bin/**/*.exp
 
 ## temp
 cpp/temp/**/*.obj

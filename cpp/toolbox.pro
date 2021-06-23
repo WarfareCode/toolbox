@@ -33,11 +33,11 @@ TEMPLATE = subdirs
 
 SUBDIRS = \
 	projects/base\
-        projects/opengl-utility\
-        projects/3d-engine\
-        projects/qt-utility\
-        projects/nodes\
-        projects/tool-test\
-        projects/demos\
+	projects/opengl-utility\
+	projects/3d-engine\
+	projects/qt-utility\
+	projects/nodes\
+	projects/tool-test\
+	projects/demos\
 
 CONFIG += ordered
