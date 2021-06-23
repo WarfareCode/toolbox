@@ -1,4 +1,6 @@
 
+## cpp
+cpp/*.pro.user*
 
 ## bin
 cpp/bin/**/*.exe
