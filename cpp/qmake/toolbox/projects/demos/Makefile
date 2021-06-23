@@ -234,7 +234,6 @@ Makefile: ..\..\..\..\projects\demos\demos.pro D:\Qt\5.15.2\msvc2019_64\mkspecs\
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\qt_config.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\spec_post.prf \
-		..\..\.qmake.stash \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exclusive_builds.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\common\msvc-version.conf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\toolchain.prf \
@@ -258,6 +257,7 @@ Makefile: ..\..\..\..\projects\demos\demos.pro D:\Qt\5.15.2\msvc2019_64\mkspecs\
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\yacc.prf \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\lex.prf \
 		..\..\..\..\projects\demos\demos.pro \
+		.qmake.stash \
 		D:\Qt\5.15.2\msvc2019_64\mkspecs\features\build_pass.prf
 	$(QMAKE) -o Makefile ..\..\..\..\projects\demos\demos.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\spec_pre.prf:
@@ -410,7 +410,6 @@ D:\Qt\5.15.2\msvc2019_64\mkspecs\features\qt_functions.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\qt_config.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\spec_post.prf:
-..\..\.qmake.stash:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exclusive_builds.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\common\msvc-version.conf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\toolchain.prf:
@@ -434,6 +433,7 @@ D:\Qt\5.15.2\msvc2019_64\mkspecs\features\exceptions.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\yacc.prf:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\lex.prf:
 ..\..\..\..\projects\demos\demos.pro:
+.qmake.stash:
 D:\Qt\5.15.2\msvc2019_64\mkspecs\features\build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\..\..\projects\demos\demos.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
@@ -445,6 +445,7 @@ all: release-all debug-all  FORCE
 clean: release-clean debug-clean  FORCE
 distclean: release-distclean debug-distclean  FORCE
 	-$(DEL_FILE) Makefile
+	-$(DEL_FILE) .qmake.stash
 
 check: first
 
