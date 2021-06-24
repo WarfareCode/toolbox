@@ -1,15 +1,13 @@
 
 
 # repo
-TOOLBOX_REPOSITORY_DIR      = $$PWD"/../.."
-# cpp
-TOOLBOX_CPP_DIR             = $$TOOLBOX_REPOSITORY_DIR"/cpp"
+TOOLBOX_REPOSITORY_DIR      = $$PWD"/.."
 # sub dir
-TOOLBOX_PROJECTS_DIR        = $$TOOLBOX_CPP_DIR"/projects"
-TOOLBOX_QMAKE_DIR           = $$TOOLBOX_CPP_DIR"/qmake"
-TOOLBOX_BIN_DIR             = $$TOOLBOX_CPP_DIR"/bin"
-TOOLBOX_TEMP_DIR            = $$TOOLBOX_CPP_DIR"/temp"
-TOOLBOX_THIRDPARTY_DIR      = $$TOOLBOX_CPP_DIR"/thirdparty"
+TOOLBOX_PROJECTS_DIR        = $$TOOLBOX_REPOSITORY_DIR"/projects"
+TOOLBOX_QMAKE_DIR           = $$TOOLBOX_REPOSITORY_DIR"/qmake"
+TOOLBOX_BIN_DIR             = $$TOOLBOX_REPOSITORY_DIR"/bin"
+TOOLBOX_TEMP_DIR            = $$TOOLBOX_REPOSITORY_DIR"/temp"
+TOOLBOX_THIRDPARTY_DIR      = $$TOOLBOX_REPOSITORY_DIR"/thirdparty"
 TOOLBOX_RESOURCES_DIR       = $$TOOLBOX_PROJECTS_DIR"/resources"
 
 # compilation directories

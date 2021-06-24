@@ -1,39 +1,40 @@
 
-## cpp
-cpp/*.pro.user*
+*.pro.user*
 
 ## bin
-cpp/bin/**/*.exe
-cpp/bin/**/*.lib
-cpp/bin/**/*.ilk
-cpp/bin/**/*.pdb
-cpp/bin/**/*.exp
+bin/**/*.exe
+bin/**/*.lib
+bin/**/*.ilk
+bin/**/*.pdb
+bin/**/*.exp
 
 ## temp
-cpp/temp/**/*.obj
-cpp/temp/**/*.cpp
-cpp/temp/**/*.h
-cpp/temp/**/*.hpp
+temp/**/*.obj
+temp/**/*.cpp
+temp/**/*.h
+temp/**/*.hpp
 
 ## qmake
-cpp/qmake/**/.qmake.stash
-cpp/qmake/**/MakeFile
-cpp/qmake/**/MakeFile.Debug
-cpp/qmake/**/MakeFile.Release
+qmake/**/.qmake.stash
+qmake/**/MakeFile
+qmake/**/MakeFile.Debug
+qmake/**/MakeFile.Release
 
 ## thirdparty
-cpp/thirdparty/**/*.sh
-cpp/thirdparty/**/*.re
-cpp/thirdparty/**/*.txt
-cpp/thirdparty/**/*.dtd
-cpp/thirdparty/**/*.pl
-cpp/thirdparty/**/*.m4
-cpp/thirdparty/**/*.ilk
-cpp/thirdparty/**/*.inc
-cpp/thirdparty/**/*.db
-cpp/thirdparty/**/*.shm
-cpp/thirdparty/**/*.erb
-cpp/thirdparty/**/*.wal
-cpp/thirdparty/**/*.bat
-cpp/thirdparty/**/*.patch
-cpp/thirdparty/**/.editorconfig
+thirdparty/**/*.sh
+thirdparty/**/*.re
+thirdparty/**/*.txt
+thirdparty/**/*.dtd
+thirdparty/**/*.pl
+thirdparty/**/*.m4
+thirdparty/**/*.ilk
+thirdparty/**/*.inc
+thirdparty/**/*.db
+thirdparty/**/*.shm
+thirdparty/**/*.erb
+thirdparty/**/*.wal
+thirdparty/**/*.bat
+thirdparty/**/*.patch
+thirdparty/**/*.suo
+thirdparty/**/*.opendb
+thirdparty/**/.editorconfig
