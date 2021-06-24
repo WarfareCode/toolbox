@@ -7,6 +7,7 @@ bin/**/*.lib
 bin/**/*.ilk
 bin/**/*.pdb
 bin/**/*.exp
+bin/**/*logs.html
 
 ## temp
 temp/**/*.obj
