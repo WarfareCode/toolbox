@@ -9,6 +9,7 @@ bin/**/*.ilk
 bin/**/*.pdb
 bin/**/*.exp
 bin/**/*logs.html
+bin/**/meshes*
 
 ## temp
 temp/**/*.obj

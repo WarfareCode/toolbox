@@ -195,18 +195,18 @@ bool DrawSampleWindow::init_models(){
         Bench::start("models");
 
             loaded &= Managers::models.add_models({
-                {"crysis",  mesh + "crysis-nano-suit-2/scene.fbx"},
-                {"pig",     mesh + "pig_triangulated.obj"},
-                {"dragon",  mesh + "dragon.obj"},
-                {"ogre",    mesh + "bs_ears.obj"},
-                {"spot",    mesh + "spot_triangulated.obj"},
-                {"fox",     mesh + "low-poly-fox-by-pixelmannen-animated/source/animations.FBX"},
-                {"bob",     mesh + "bob/boblampclean.md5mesh"},
-                {"bdragon", mesh + "assimp/bdragon/source/bdragon.fbx"},
-                {"alex",    mesh + "alex/alex_breahting_idle.fbx"},
-                {"rabbit",  mesh + "stanford_rabbit.obj"},
-                {"storm",   mesh + "storm-ani/source/Storm_Ani.fbx"},
-                });
+                {"crysis",  mesh + "/crysis-nano-suit-2/scene.fbx"},
+                {"pig",     mesh + "/pig/pig_triangulated.obj"},
+                {"dragon",  mesh + "/dragon/dragon.obj"},
+                {"ogre",    mesh + "/ogre/bs_ears.obj"},
+                {"spot",    mesh + "/spot/spot_triangulated.obj"},
+                {"fox",     mesh + "/low-poly-fox/source/animations.FBX"},
+                {"bob",     mesh + "/bob/boblampclean.md5mesh"},
+                {"bdragon", mesh + "/bdragon/source/bdragon.fbx"},
+                {"alex",    mesh + "/alex/alex_breahting_idle.fbx"},
+                {"rabbit",  mesh + "/rabbit/stanford_rabbit.obj"},
+                {"storm",   mesh + "/storm/source/Storm_Ani.fbx"},
+            });
 
 
         //        loaded = loaded && modelsM.add_model("crysis",  mesh + "crysis-nano-suit-2/scene.fbx");
@@ -452,10 +452,10 @@ bool DrawSampleWindow::initialize_gl(){
     m_camera.set_direction(0.,0.,0.);
 
     std::cout << "Init drawers\n";
-//    init_drawers();
+    init_drawers();
 
-//    std::cout << "Init samples\n";
-//    init_samples();
+    std::cout << "Init samples\n";
+    init_samples();
 
     VAO::unbind();
 
@@ -476,7 +476,7 @@ void DrawSampleWindow::update_gl(){
     gl::FBO::unbind();
 
     if(samples.count(demosName[currentDemo]) != 0){
-//        samples[demosName[currentDemo]]->draw();
+        samples[demosName[currentDemo]]->draw();
     }
 }
 
@@ -501,16 +501,16 @@ void DrawSampleWindow::post_update(){
     auto mm = &Managers::models;
     auto dm = &Managers::drawers;
 
-//    // update animations
-//    if(auto model = mm->get_model("storm").lock()){
-//        if(auto drawer = dynamic_cast<gl::ModelDrawer*>(dm->get_drawer_ptr("storm-drawer")); drawer != nullptr){
-//            drawer->update_animation(model->animations[0].name, elapsedSeconds);
-//        }
-//    }
+    // update animations
+    if(auto model = mm->get_model("storm").lock()){
+        if(auto drawer = dynamic_cast<gl::ModelDrawer*>(dm->get_drawer_ptr("storm-drawer")); drawer != nullptr){
+            drawer->update_animation(model->animations[0].name, elapsedSeconds);
+        }
+    }
 
     // update current sample
     if(samples.count(demosName[currentDemo]) != 0){
-//        samples[demosName[currentDemo]]->update(elapsedSeconds);
+        samples[demosName[currentDemo]]->update(elapsedSeconds);
     }
 }
 
@@ -578,6 +578,6 @@ void DrawSampleWindow::update_imgui(){
 void DrawSampleWindow::resize_windows(){
     // resize current sample
     if(samples.count(demosName[currentDemo]) != 0){
-//        samples[demosName[currentDemo]]->update_screen_size();
+        samples[demosName[currentDemo]]->update_screen_size();
     }
 }
