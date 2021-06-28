@@ -27,17 +27,17 @@
 
 PROJECT_NAME = toolbox
 
-#include(projects.pri)
+include(cpp-projects/projects.pri)
 
 TEMPLATE = subdirs
 
 SUBDIRS = \
-	projects/base\
-	projects/opengl-utility\
-	projects/3d-engine\
-	projects/qt-utility\
-	projects/nodes\
-	projects/tool-test\
-	projects/demos\
+	cpp-projects/base\
+	cpp-projects/opengl-utility\
+	cpp-projects/3d-engine\
+	cpp-projects/qt-utility\
+	cpp-projects/nodes\
+	cpp-projects/tool-test\
+	cpp-projects/demos\
 
 CONFIG += ordered

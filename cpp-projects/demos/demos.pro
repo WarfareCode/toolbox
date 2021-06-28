@@ -29,7 +29,7 @@ TARGET = demos
 
 ####################################### PRI
 # defines projects settings
-include(../../projects.pri)
+include(../projects.pri)
 # defines compiling options
 include(../settings.pri)
 # generate paths

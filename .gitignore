@@ -3,44 +3,44 @@
 *.pro.user*
 
 ## bin
-bin/**/*.exe
-bin/**/*.lib
-bin/**/*.ilk
-bin/**/*.pdb
-bin/**/*.exp
-bin/**/*logs.html
-bin/**/meshes*
+cpp-projects/_bin/**/*.exe
+cpp-projects/_bin/**/*.lib
+cpp-projects/_bin/**/*.ilk
+cpp-projects/_bin/**/*.pdb
+cpp-projects/_bin/**/*.exp
+cpp-projects/_bin/**/*logs.html
+cpp-projects/_bin/**/meshes*
 
 ## temp
-temp/**/*.obj
-temp/**/*.cpp
-temp/**/*.h
-temp/**/*.hpp
+cpp-projects/_temp/**/*.obj
+cpp-projects/_temp/**/*.cpp
+cpp-projects/_temp/**/*.h
+cpp-projects/_temp/**/*.hpp
 
 ## qmake
-qmake/**/*.rc
-qmake/**/*.pch
-qmake/**/*.obj
-qmake/**/.qmake.stash
-qmake/**/MakeFile
-qmake/**/MakeFile.Debug
-qmake/**/MakeFile.Release
+cpp-projects/_qmake/**/*.rc
+cpp-projects/_qmake/**/*.pch
+cpp-projects/_qmake/**/*.obj
+cpp-projects/_qmake/**/.qmake.stash
+cpp-projects/_qmake/**/MakeFile
+cpp-projects/_qmake/**/MakeFile.Debug
+cpp-projects/_qmake/**/MakeFile.Release
 
 ## thirdparty
-thirdparty/**/*.sh
-thirdparty/**/*.re
-thirdparty/**/*.txt
-thirdparty/**/*.dtd
-thirdparty/**/*.pl
-thirdparty/**/*.m4
-thirdparty/**/*.ilk
-thirdparty/**/*.inc
-thirdparty/**/*.db
-thirdparty/**/*.shm
-thirdparty/**/*.erb
-thirdparty/**/*.wal
-thirdparty/**/*.bat
-thirdparty/**/*.patch
-thirdparty/**/*.suo
-thirdparty/**/*.opendb
-thirdparty/**/.editorconfig
+cpp-projects/_thirdparty/**/*.sh
+cpp-projects/_thirdparty/**/*.re
+cpp-projects/_thirdparty/**/*.txt
+cpp-projects/_thirdparty/**/*.dtd
+cpp-projects/_thirdparty/**/*.pl
+cpp-projects/_thirdparty/**/*.m4
+cpp-projects/_thirdparty/**/*.ilk
+cpp-projects/_thirdparty/**/*.inc
+cpp-projects/_thirdparty/**/*.db
+cpp-projects/_thirdparty/**/*.shm
+cpp-projects/_thirdparty/**/*.erb
+cpp-projects/_thirdparty/**/*.wal
+cpp-projects/_thirdparty/**/*.bat
+cpp-projects/_thirdparty/**/*.patch
+cpp-projects/_thirdparty/**/*.suo
+cpp-projects/_thirdparty/**/*.opendb
+cpp-projects/_thirdparty/**/.editorconfig

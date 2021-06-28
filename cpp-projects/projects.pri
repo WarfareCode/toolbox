@@ -24,7 +24,7 @@ TOOl_TEST_T         = "app"
 DEMOS_T             = "app"
 
 # projects list
-TOOLBOX_PROJECTS +=\
+TOOLBOX_CPP_PROJECTS +=\
     BASE:base \
     OPENGL_UTILITY:opengl-utility \
     3D_ENGINE:3d-engine \

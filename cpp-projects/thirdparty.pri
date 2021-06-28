@@ -1,25 +1,25 @@
 
 ########################################################## DIRECTORIES
 ############################ third-party headers only libraries
-GSL_INCLUDES                         = $$TOOLBOX_THIRDPARTY_DIR"/gsl"
-MAGIC_ENUM_INCLUDES                  = $$TOOLBOX_THIRDPARTY_DIR"/magic_enum/include"
-SIGNALS_INCLUDES                     = $$TOOLBOX_THIRDPARTY_DIR"/signals"
-TINYPLY_INCLUDES                     = $$TOOLBOX_THIRDPARTY_DIR"/tinyply"
-IMGUI_INCLUDES                       = $$TOOLBOX_THIRDPARTY_DIR"/imgui-master"
-CATCH_INCLUDES                       = $$TOOLBOX_THIRDPARTY_DIR"/catch"
+GSL_INCLUDES                         = $$TOOLBOX_CPP_THIRDPARTY_DIR"/gsl"
+MAGIC_ENUM_INCLUDES                  = $$TOOLBOX_CPP_THIRDPARTY_DIR"/magic_enum/include"
+SIGNALS_INCLUDES                     = $$TOOLBOX_CPP_THIRDPARTY_DIR"/signals"
+TINYPLY_INCLUDES                     = $$TOOLBOX_CPP_THIRDPARTY_DIR"/tinyply"
+IMGUI_INCLUDES                       = $$TOOLBOX_CPP_THIRDPARTY_DIR"/imgui-master"
+CATCH_INCLUDES                       = $$TOOLBOX_CPP_THIRDPARTY_DIR"/catch"
 ############################ third-party others
-TURBOJPG_DIR                         = $$TOOLBOX_THIRDPARTY_DIR"/libjpeg-turbo-2.0.3"
-FASTPFOR_DIR                         = $$TOOLBOX_THIRDPARTY_DIR"/FastPFor"
-KINECT2_DIR                          = $$TOOLBOX_THIRDPARTY_DIR"/kinect2"
-KINECT4_DIR                          = $$TOOLBOX_THIRDPARTY_DIR"/kinect4"
-BOOST_DIR                            = $$TOOLBOX_THIRDPARTY_DIR"/boost_1_68_0"
-ASSIMP_DIR                           = $$TOOLBOX_THIRDPARTY_DIR"/assimp"
-OPENCV_DIR                           = $$TOOLBOX_THIRDPARTY_DIR"/opencv-3.4.7"
-GLEW_DIR                             = $$TOOLBOX_THIRDPARTY_DIR"/glew-2.1.0"
-GLFW_DIR                             = $$TOOLBOX_THIRDPARTY_DIR"/glfw-3.3.2"
-SFML_DIR                             = $$TOOLBOX_THIRDPARTY_DIR"/SFML"
-GLM_DIR                              = $$TOOLBOX_THIRDPARTY_DIR"/glm"
-BIOPAC_DIR                           = $$TOOLBOX_THIRDPARTY_DIR"/biopac"
+TURBOJPG_DIR                         = $$TOOLBOX_CPP_THIRDPARTY_DIR"/libjpeg-turbo-2.0.3"
+FASTPFOR_DIR                         = $$TOOLBOX_CPP_THIRDPARTY_DIR"/FastPFor"
+KINECT2_DIR                          = $$TOOLBOX_CPP_THIRDPARTY_DIR"/kinect2"
+KINECT4_DIR                          = $$TOOLBOX_CPP_THIRDPARTY_DIR"/kinect4"
+BOOST_DIR                            = $$TOOLBOX_CPP_THIRDPARTY_DIR"/boost_1_68_0"
+ASSIMP_DIR                           = $$TOOLBOX_CPP_THIRDPARTY_DIR"/assimp"
+OPENCV_DIR                           = $$TOOLBOX_CPP_THIRDPARTY_DIR"/opencv-3.4.7"
+GLEW_DIR                             = $$TOOLBOX_CPP_THIRDPARTY_DIR"/glew-2.1.0"
+GLFW_DIR                             = $$TOOLBOX_CPP_THIRDPARTY_DIR"/glfw-3.3.2"
+SFML_DIR                             = $$TOOLBOX_CPP_THIRDPARTY_DIR"/SFML"
+GLM_DIR                              = $$TOOLBOX_CPP_THIRDPARTY_DIR"/glm"
+BIOPAC_DIR                           = $$TOOLBOX_CPP_THIRDPARTY_DIR"/biopac"
 
 ########################################################## INCLUDES
 
@@ -195,6 +195,6 @@ equals(COMPILER, "vs"){
 ############################ FASTPFOR
         FASTPFOR_LIBS =\
             -L$$FASTPFOR_DIR"/msvc/x64/Release" \
-            -lFastPFor \$
+            -lFastPFor \
     }
 }
