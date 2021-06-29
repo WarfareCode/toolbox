@@ -29,11 +29,11 @@ TOOLBOX_REPOSITORY_DIR      = $$PWD"/../.."
 
 ####################################### PRI
 # defines compiling options
-include(../settings.pri)
+include(../tb-settings.pri)
 # defines projects paths and variables
-include(../projects.pri)
+include(../tb-projects.pri)
 # defines thirdparty includes and libs
-include(../thirdparty.pri)
+include(../tb-thirdparty.pri)
 
 ####################################### TARGET
 equals(CFG, "debug"){

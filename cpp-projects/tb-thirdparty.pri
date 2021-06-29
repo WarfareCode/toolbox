@@ -82,7 +82,7 @@ WINDOWS_LIBS = \
 equals(COMPILER, "vs"){
 
 ########################################################## DEBUG LIBS
-    CONFIG(debug, debug|release){
+    equals(CFG, "debug"){
 
 ############################ OPENCV
 
@@ -126,7 +126,7 @@ equals(COMPILER, "vs"){
     }
 
 ########################################################## RELEASE LIBS
-    CONFIG(release, debug|release){
+    equals(CFG, "release"){
 
 ############################ OPENCV
         OPENCV_LIBS = \
