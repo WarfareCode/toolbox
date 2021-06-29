@@ -1,6 +1,6 @@
 
 # /*******************************************************************************
-# ** Toolbox-3d-engine                                                          **
+# ** Toolbox-demos                                                              **
 # ** MIT License                                                                **
 # ** Copyright (c) [2018] [Florian Lance]                                       **
 # **                                                                            **
@@ -24,9 +24,6 @@
 # **                                                                            **
 # ********************************************************************************/
 
-####################################### TARGET
-TARGET = demos
-
 ####################################### PRI
 # defines projects settings
 include(../projects.pri)
@@ -37,13 +34,22 @@ include(../paths.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
+####################################### TARGET
+equals(CFG, "debug"){
+    TARGET = demosd
+}
+equals(CFG, "release"){
+    TARGET = demos
+}
+
 ####################################### TEMPLATE
 
-equals(DEMOS_T, "app"){
+equals(DEMOS_TARGET, "app"){
     TEMPLATE = app
     CONFIG += console
 }
 
+####################################### BUILD FILES
 OBJECTS_DIR = $$DEMOS_OBJ
 DESTDIR     = $$DEMOS_DEST
 

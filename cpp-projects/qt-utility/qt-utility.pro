@@ -24,9 +24,6 @@
 # **                                                                            **
 # ********************************************************************************/
 
-####################################### TARGET
-TARGET = qt-utility
-
 ####################################### PRI
 # defines projects settings
 include(../projects.pri)
@@ -37,31 +34,37 @@ include(../paths.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
+####################################### TARGET
+equals(CFG, "debug"){
+    TARGET = qt-utilityd
+}
+equals(CFG, "release"){
+    TARGET = qt-utility
+}
+
 ####################################### TEMPLATE
-equals(QT_UTILITY_T, "lib"){
+equals(QT_UTILITY_TARGET, "lib"){
     TEMPLATE = lib
     CONFIG += staticlib
     CONFIG -= console
 }
-equals(QT_UTILITY_T, "app"){
+equals(QT_UTILITY_TARGET, "app"){
     TEMPLATE = app
     CONFIG += console
 }
 
+####################################### BUILD FILES
 OBJECTS_DIR = $$QT_UTILITY_OBJ
 MOC_DIR     = $$QT_UTILITY_MOC
 RCC_DIR     = $$QT_UTILITY_RCC
 UI_DIR      = $$QT_UTILITY_UI
 DESTDIR     = $$QT_UTILITY_DEST
 
-
 ####################################### CONFIG
-
 CONFIG += qt
 QT += core gui opengl widgets printsupport network
 
 ####################################### INCLUDES
-
 INCLUDEPATH += \    
     # local
     widgets \
@@ -75,10 +78,7 @@ INCLUDEPATH += \
     $$GLEW_INCLUDES \
     $$GLM_INCLUDES \
 
-
-
 ####################################### LIBRAIRIES
-
 LIBS +=  \
     # base
     $$BASE_LIB\
@@ -126,5 +126,3 @@ FORMS += \
     ui/grabber_parameters.ui \
 
 
-
-#DISTFILES += \

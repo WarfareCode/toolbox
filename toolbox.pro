@@ -27,8 +27,6 @@
 
 PROJECT_NAME = toolbox
 
-include(cpp-projects/projects.pri)
-
 TEMPLATE = subdirs
 
 SUBDIRS = \

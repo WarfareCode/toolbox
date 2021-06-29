@@ -37,12 +37,21 @@ include(../paths.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
+####################################### TARGET
+equals(CFG, "debug"){
+    TARGET = tool-testd
+}
+equals(CFG, "release"){
+    TARGET = tool-test
+}
+
 ####################################### TEMPLATE
-equals(TOOl_TEST_T, "app"){
+equals(TOOl_TEST_TARGET, "app"){
     TEMPLATE = app
     CONFIG += console
 }
 
+####################################### BUILD FILES
 OBJECTS_DIR = $$TOOL_TEST_OBJ
 DESTDIR     = $$TOOL_TEST_DEST
 

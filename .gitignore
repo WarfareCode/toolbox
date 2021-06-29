@@ -1,30 +1,28 @@
 
 *.pro.user
 *.pro.user*
+.qmake.stash
+Makefile
 
 ## bin
-cpp-projects/_bin/**/*.exe
-cpp-projects/_bin/**/*.lib
-cpp-projects/_bin/**/*.ilk
-cpp-projects/_bin/**/*.pdb
-cpp-projects/_bin/**/*.exp
-cpp-projects/_bin/**/*logs.html
-cpp-projects/_bin/**/meshes*
+cpp-projects/**/Makefile
+cpp-projects/**/Makefile*
+cpp-projects/**/*.pch
+cpp-projects/**/*.rc
+cpp-projects/_build/bin/**/*.exe
+cpp-projects/_build/bin/**/*.lib
+cpp-projects/_build/bin/**/*.ilk
+cpp-projects/_build/bin/**/*.pdb
+cpp-projects/_build/bin/**/*.exp
+cpp-projects/_build/bin/**/*logs.html
+cpp-projects/_build/bin/**/meshes*
 
 ## temp
-cpp-projects/_temp/**/*.obj
-cpp-projects/_temp/**/*.cpp
-cpp-projects/_temp/**/*.h
-cpp-projects/_temp/**/*.hpp
+cpp-projects/_build/temp/**/*.obj
+cpp-projects/_build/temp/**/*.cpp
+cpp-projects/_build/temp/**/*.h
+cpp-projects/_build/temp/**/*.hpp
 
-## qmake
-cpp-projects/_qmake/**/*.rc
-cpp-projects/_qmake/**/*.pch
-cpp-projects/_qmake/**/*.obj
-cpp-projects/_qmake/**/.qmake.stash
-cpp-projects/_qmake/**/MakeFile
-cpp-projects/_qmake/**/MakeFile.Debug
-cpp-projects/_qmake/**/MakeFile.Release
 
 ## thirdparty
 cpp-projects/_thirdparty/**/*.sh

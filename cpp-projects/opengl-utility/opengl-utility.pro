@@ -24,9 +24,6 @@
 ## **                                                                            **
 ## ********************************************************************************/
 
-####################################### TARGET
-TARGET = opengl-utility
-
 ####################################### PRI
 # defines projects settings
 include(../projects.pri)
@@ -37,17 +34,26 @@ include(../paths.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
+####################################### TARGET
+equals(CFG, "debug"){
+    TARGET = opengl-utilityd
+}
+equals(CFG, "release"){
+    TARGET = opengl-utility
+}
+
 ####################################### TEMPLATE
-equals(OPENGL_UTILITY_T, "lib"){
+equals(OPENGL_UTILITY_TARGET, "lib"){
     TEMPLATE = lib
     CONFIG += staticlib
     CONFIG -= console
 }
-equals(OPENGL_UTILITY_T, "app"){
+equals(OPENGL_UTILITY_TARGET, "app"){
     TEMPLATE = app
     CONFIG += console
 }
 
+####################################### BUILD FILES
 OBJECTS_DIR = $$OPENGL_UTILITY_OBJ
 DESTDIR     = $$OPENGL_UTILITY_DEST
 

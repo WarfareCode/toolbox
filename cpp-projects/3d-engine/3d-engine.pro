@@ -24,9 +24,6 @@
 # **                                                                            **
 # ********************************************************************************/
 
-####################################### TARGET
-TARGET = 3d-engine
-
 ####################################### PRI
 # defines projects settings
 include(../projects.pri)
@@ -37,18 +34,26 @@ include(../paths.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
-####################################### TEMPLATE
+####################################### TARGET
+equals(CFG, "debug"){
+    TARGET = 3d-engined
+}
+equals(CFG, "release"){
+    TARGET = 3d-engine
+}
 
-equals(3D_ENGINE_T, "lib"){
+####################################### TEMPLATE
+equals(3D_ENGINE_TARGET, "lib"){
     TEMPLATE = lib
     CONFIG += staticlib
     CONFIG -= console
 }
-equals(3D_ENGINE_T, "app"){
+equals(3D_ENGINE_TARGET, "app"){
     TEMPLATE = app
     CONFIG += console
 }
 
+####################################### BUILD FILES
 OBJECTS_DIR = $$3D_ENGINE_OBJ
 DESTDIR     = $$3D_ENGINE_DEST
 

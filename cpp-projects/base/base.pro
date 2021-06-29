@@ -24,11 +24,6 @@
 # **                                                                            **
 # ********************************************************************************/
 
-
-
-####################################### TARGET
-TARGET = base
-
 ####################################### PRI
 # defines projects settings
 include(../projects.pri)
@@ -39,16 +34,26 @@ include(../paths.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
+####################################### TARGET
+equals(CFG, "debug"){
+    TARGET = based
+}
+equals(CFG, "release"){
+    TARGET = base
+}
+
 ####################################### TEMPLATE
-equals(BASE_T, "lib"){
+equals(BASE_TARGET, "lib"){
     TEMPLATE = lib
     CONFIG += staticlib
     CONFIG -= console
 }
-equals(BASE_T, "app"){
+equals(BASE_TARGET, "app"){
     TEMPLATE = app
     CONFIG += console
 }
+
+####################################### BUILD FILES
 OBJECTS_DIR = $$BASE_OBJ
 DESTDIR     = $$BASE_DEST
 
