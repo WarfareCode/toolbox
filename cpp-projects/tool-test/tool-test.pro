@@ -24,16 +24,14 @@
 # **                                                                            **
 # ********************************************************************************/
 
-####################################### TARGET
-TARGET = tool-test
+####################################### repo
+TOOLBOX_REPOSITORY_DIR      = $$PWD"/../.."
 
 ####################################### PRI
-# defines projects settings
-include(../projects.pri)
 # defines compiling options
 include(../settings.pri)
-# generate paths
-include(../paths.pri)
+# defines projects paths and variables
+include(../projects.pri)
 # defines thirdparty includes and libs
 include(../thirdparty.pri)
 
