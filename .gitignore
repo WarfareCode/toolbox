@@ -22,6 +22,9 @@ cpp-projects/_build/temp/**/*.obj
 cpp-projects/_build/temp/**/*.cpp
 cpp-projects/_build/temp/**/*.h
 cpp-projects/_build/temp/**/*.hpp
+cpp-projects/_build/temp/**/*.opt
+cpp-projects/_build/temp/**/*.res
+cpp-projects/_build/temp/**/*.pdb
 
 
 ## thirdparty
